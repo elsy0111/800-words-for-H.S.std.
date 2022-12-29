@@ -5,7 +5,7 @@ import numpy as np
 st.markdown("""
 <style>
 tr {
-    font-size:1.6em !important;
+    font-size:1.2em !important;
 }
 
 * {
