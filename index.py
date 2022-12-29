@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from random import randint
+import random
 
 st.markdown("""
 <style>
@@ -17,7 +17,7 @@ tr {
 def top():
     st.title('Important 800 words for H.S.std.')
     st.header('from Arcsecond / Elsy')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random_all/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
@@ -25,119 +25,119 @@ def top():
 
 def page01():
     st.title('Page01')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random1/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page02():
     st.title('Page02')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random2/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page03():
     st.title('Page03')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random3/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page04():
     st.title('Page04')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random4/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page05():
     st.title('Page05')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random5/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page06():
     st.title('Page06')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random6/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page07():
     st.title('Page07')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random7/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page08():
     st.title('Page08')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random8/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page09():
     st.title('Page09')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random9/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page10():
     st.title('Page10')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random10/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page11():
     st.title('Page11')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random11/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page12():
     st.title('Page12')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random12/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page13():
     st.title('Page13')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random13/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page14():
     st.title('Page14')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random14/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page15():
     st.title('Page15')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random15/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page16():
     st.title('Page16')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random16/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
 
 def page17():
     st.title('Page17')
-    rand = randint(1,10)
+    rand = random.randint(1,10)
     st.header("random_seed : " + str(rand))
     df = pd.read_csv('R/random17/Er_' + str(rand) + '.csv',encoding='UTF-8')
     st.markdown(df.to_markdown(), unsafe_allow_html=True)
