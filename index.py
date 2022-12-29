@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# st.set_page_config(layout="wide")
-
-df = pd.read_csv('R/random1/Er_10.csv',encoding='UTF-8')
-
 st.title('Important 800 words for H.S.std.')
 st.header('from Arcsecond / Elsy')
 
@@ -16,4 +12,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+
+df = pd.read_csv('R/random_all/Er_1.csv',encoding='UTF-8')
+
+# st.markdown('<p class = "big-font"> df.to_markdown() </p>', unsafe_allow_html=True)
+
+st.markdown("[prob1](./problem.py)", unsafe_allow_html=True)
 st.markdown(df.to_markdown(), unsafe_allow_html=True)
